@@ -3,6 +3,8 @@ import "./styles.css";
 import { Button, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import { IconButton } from "@material-ui/core";
+import AddIcon from "@material-ui/icons/Add";
+import Fab from "@material-ui/core/Fab";
 import PlaylistAddIcon from "@material-ui/icons/PlaylistAdd";
 import PlaylistAddCheckIcon from "@material-ui/icons/PlaylistAddCheck";
 import PlaylistPlayIcon from "@material-ui/icons/PlaylistPlay";
@@ -38,6 +40,9 @@ export default function App() {
         Headline
       </Typography>
       <Button color="primary" variant="outlined">
+        Material UI
+      </Button>
+      <Button color="primary" variant="outlined" disabled>
         Material UI Button
       </Button>
       <Button color="primary" variant="outlined" disabled>
