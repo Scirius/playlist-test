@@ -10,7 +10,7 @@ export default function App() {
       <Button color="primary" variant="outlined" disabled>
         Material UI Button
       </Button>
-      <Button color="primary" variant="outlined" fullWidth>
+      <Button color="secondary" variant="outlined" fullWidth>
         Material UI Button
       </Button>
     </div>
